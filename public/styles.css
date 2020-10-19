@@ -1,0 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Cinzel&display=swap");
+:root {
+    --blue: #03065a;
+    --dark: #080808;
+    --navy: #000020;
+    background: var(--navy);
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Cinzel', 'Times New Roman', Times, serif;
+}
+
+body {
+    background: var(--navy);
+    overflow-x: hidden;
+}
+
+/* -------------------------------------------- HOME PAGE ----------------------------- */
