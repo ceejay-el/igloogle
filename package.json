@@ -1,23 +1,28 @@
 {
-  "name": "googel",
+  "name": "igloogle",
   "version": "1.0.0",
-  "description": "",
-  "main": "engines.js",
+  "description": "Web browser model using serpstack API for search results",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ceejay-el/googel.git"
+    "url": "git+https://github.com/ceejay-el/igloogle.git"
   },
   "author": "",
   "license": "Unlicense",
   "bugs": {
-    "url": "https://github.com/ceejay-el/googel/issues"
+    "url": "https://github.com/ceejay-el/igloogle/issues"
   },
-  "homepage": "https://github.com/ceejay-el/googel#readme",
+  "homepage": "https://github.com/ceejay-el/igloogle#readme",
   "dependencies": {
-    "express": "^4.17.1"
-  }
+    "axios": "^0.20.0",
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.6"
+  },
+  "devDependencies": {}
 }
