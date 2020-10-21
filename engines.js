@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 /**
  # MAIN FUNCTIONS THAT RUN SERVER PROCESSES
  */
@@ -98,5 +97,4 @@ module.exports.results = function(request, response){
         }).catch(function(error){
             console.log("There was an error");
 });
->>>>>>> bd92e3dff81fb40dc606be1817113bd624585092
 }
