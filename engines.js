@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 579a6a7d911bf75bbaf19b185aa0b58e98d6bd0c
 /**
  # MAIN FUNCTIONS THAT RUN SERVER PROCESSES
  */
@@ -48,7 +51,11 @@ module.exports.results = function(request, response){
         }).catch(function(error){
             console.log("There was an error");
 });
+<<<<<<< HEAD
 =======
+=======
+// =============================================================================================================== //
+>>>>>>> 579a6a7d911bf75bbaf19b185aa0b58e98d6bd0c
 /**
  # MAIN FUNCTIONS THAT RUN SERVER PROCESSES
  */
@@ -94,9 +101,15 @@ module.exports.results = function(request, response){
     .then(function(resp){
         let apiData = resp.data;
         response.render("results", {SEresults: apiData});
+<<<<<<< HEAD
 
         }).catch(function(error){
             console.log("There was an error");
 });
 >>>>>>> 2eff32a... working engine
+=======
+        }).catch(function(error){
+            console.log("There was an error");
+        });
+>>>>>>> 579a6a7d911bf75bbaf19b185aa0b58e98d6bd0c
 }
