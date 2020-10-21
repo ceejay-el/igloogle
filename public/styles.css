@@ -82,7 +82,7 @@ body {
     background: var(--blue);
     padding: 1rem;
 }
-
+.count { font-size: .7rem;}
 .previews {
     border: none;
     margin: 1rem;
