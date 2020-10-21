@@ -1,13 +1,14 @@
-@import url("https://fonts.googleapis.com/css2?family=Cinzel&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oxygen:wght@300&display=swap");
 :root {
     --blue: #03065a;
     --dark: #080808;
     --navy: #000020;
     --azure: #c4e1ff;
+    --forest: #0b6623;
     background: var(--navy);
 }
 h1, h2, h3, h4, h5, h6 {
-    font-family: 'Cinzel', 'Times New Roman', Times, serif;
+    font-family: 'Oxygen', Arial, Helvetica, sans-serif;
 }
 
 body {
@@ -80,5 +81,20 @@ body {
 #results-header {
     background: var(--blue);
     padding: 1rem;
+}
+
+.previews {
+    border: none;
+    margin: 1rem;
+}
+.previews:hover { box-shadow: 1px 1px 3px 1px rgba(0, 0, 10, .2);}
+.link { color: var(--forest); }
+.preview { font-size: .9rem; }
+
+footer {
+    background: var(--dark);
+    height: 3rem;
+    padding: 1rem;
+    text-align: right;
 }
 /* ------------------------------------------------------------------------------------------------------------------ */
