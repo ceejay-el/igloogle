@@ -1,1 +1,1 @@
-// serpstack api
+// TO-DO: webpage js functions
