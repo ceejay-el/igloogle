@@ -33,8 +33,10 @@ app.get("/", routes.homePage);
 
 // send search results
 app.post("/", routes.resultsPage);
+
+app.get("/serp", routes.serp);
 // ======================================================================================================= //
 
 app.listen(port, function(){
     console.log("server listening on port " + port);
-})
+});

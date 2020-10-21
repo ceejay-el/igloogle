@@ -6,6 +6,10 @@ module.exports.homePage = function(request, response){
 }
 
 // send results page
-module.exports.resultsPage = function(request, response){
+module.exports.serp = function(request, response){
     response.sendFile(__dirname + "/public/results.html");
+}
+
+module.exports.resultsPage = function(request, response){
+    response.redirect("/serp");
 }

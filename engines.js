@@ -14,13 +14,9 @@ const params = {
 
 
 // search results
-axios.get("https://127.0.0.1:3000/serp.php", {params})
-    .then(function(response){
-        const apiResponse = response.data;
-        console.log("Total results: ", apiResponse.search_information.total_results);
-        apiResponse.organic_results.map(function(result, number){
-            console.log(`${number + 1}.${result.title}`);
-        }).catch(function(error){
-            console.log(error);
-        });
-    });
+// axios.get("https://api.serpstack.com/search", {params})
+//     .then(function(response){
+//         console.log(response.data);
+//         }).catch(function(error){
+//             console.log("There was an error");
+//         });
