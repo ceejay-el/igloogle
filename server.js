@@ -21,6 +21,7 @@ const port = process.env.PORT || 3000;
 // initialize middleware
 app.use(bodyParser.urlencoded({extended: true}));
 app.use(express.static("public"));
+app.set("view engine", "ejs");
 // end of initializing middleware
 
 
@@ -33,8 +34,8 @@ app.get("/", routes.homePage);
 
 // send search results
 app.post("/", routes.resultsPage);
-
-app.get("/serp", routes.serp);
+app.get("/serp", routes.searchPage);
+app.post("/serp", engines.results);
 // ======================================================================================================= //
 
 app.listen(port, function(){
