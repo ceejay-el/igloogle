@@ -93,8 +93,7 @@ module.exports.results = function(request, response){
     .then(function(resp){
         let apiData = resp.data;
         response.render("results", {SEresults: apiData});
-
         }).catch(function(error){
             console.log("There was an error");
-});
+        });
 }
