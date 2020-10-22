@@ -34,7 +34,7 @@ app.get("/", routes.homePage);
 
 // send search results
 app.post("/", routes.resultsPage);
-app.get("/serp", routes.searchPage);
+app.get("/serp", routes.initialSearch);
 app.post("/serp", engines.results);
 // ======================================================================================================= //
 
