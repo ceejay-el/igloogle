@@ -1,4 +1,4 @@
-[![Heroku](https://igloogle.herokuapp.com/?app=heroku-badge)]
+[![Heroku](http://igloogle.herokuapp.com/?app=igloogle&root=index.html)]
 
 # [igloogle](http://igloogle.herokuapp.com)
 Web browser model using serpstack API for search results
